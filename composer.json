@@ -1,0 +1,20 @@
+{
+    "name": "omega/renderer-html",
+    "description": "HTML Renderer for Omega",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Kowalski",
+            "email": "jonathan.kowalski@laposte.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omega\\Renderers": "src/"
+        }
+    },
+    "require": {
+        "omega/core": "^1.0"
+    }
+}
